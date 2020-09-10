@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "postalservice",
+    "version": "${version}",
+
+    "name": "The Postal Service",
+    "description": "a library for sending objects in packets",
+    "authors": [
+        "user11681"
+    ],
+    "contact": {
+        "repo": "https://github.com/user11681/postalservice"
+    },
+
+    "license": "MIT",
+    "icon": "assets/postalservice/icon.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "user11681.postalservice.ThePostalService::init"
+        ]
+    },
+
+    "mixins": [
+        "postalservice.mixins.json"
+    ],
+
+    "depends": {
+        "fabricloader": ">=0.9.3+build.207",
+        "minecraft": "1.16.2"
+    }
+}
