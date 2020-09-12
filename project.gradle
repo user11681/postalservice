@@ -1,1 +1,7 @@
 version = "0.0.0"
+
+dependencies {
+//    modApi include("${project.apiBase}")
+//    modApi include("${project.apiNetworking}")
+    modApi "${project.api}"
+}

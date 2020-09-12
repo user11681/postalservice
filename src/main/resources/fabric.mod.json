@@ -16,11 +16,7 @@
     "icon": "assets/postalservice/icon.png",
 
     "environment": "*",
-    "entrypoints": {
-        "main": [
-            "user11681.postalservice.ThePostalService::init"
-        ]
-    },
+    "entrypoints": {},
 
     "mixins": [
         "postalservice.mixins.json"

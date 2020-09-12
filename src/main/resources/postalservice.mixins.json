@@ -4,6 +4,7 @@
     "package": "user11681.postalservice.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+        "TestMixin"
     ],
     "client": [
     ],
